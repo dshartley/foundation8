@@ -1,0 +1,48 @@
+** initialisation methods
+x	Constructors
+x	Setup
+x	EndCreate
+x	InitialiseDataNode
+x	InitialiseDataItem
+x	InitialisePropertyIndexes
+x	InitialisePropertyKeys
+
+** public methods
+x	GetProperty
+x	SetProperty
+x	Validate
+x	IsValid[Property]
+x	Copy
+x	Remove
+x	GetPropertyKeys
+x	GetPropertyEnums
+
+** protected methods
+x	SetAttribute
+x	ToKey
+x	ToEnum
+
+** public data methods
+ID
+x	Property Getter/Setter
+
+** public meta methods
+Node
+DataType
+Tag
+Parent
+x	Status
+HistoryVersion
+History
+DoSaves
+DoValidations
+DoEvents
+
+
+
+
+
+
+
+
+

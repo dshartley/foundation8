@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "2ff9eaf943d5b0875bdf9b1632cd32b3ee935b4a"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Smart.Platform.Globalization/1.0.0": {
+        "dependencies": {
+          "Smart.Platform.Diagnostics": "1.0.0"
+        },
+        "runtime": {
+          "Smart.Platform.Globalization.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "Smart.Platform.Diagnostics/1.0.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0"
+        },
+        "runtime": {
+          "Smart.Platform.Diagnostics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Smart.Platform.Globalization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9GnCGBv3YffX50f/OVHDcbn3WuBRfSSr52LcdljuSrHWxqI2C5mX9aauE2+HE00g/rrhx4m/6B8Iw6bg5ienQw==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yakcfbqeDZHkhlDqkzqUcjuTV4muAANgS2bJDeE5b2PnMy71HFLV1j62Hc03uJibKwWDlfN3f+lBps+SGwGeoA==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "Smart.Platform.Diagnostics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

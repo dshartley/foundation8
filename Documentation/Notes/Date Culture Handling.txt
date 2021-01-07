@@ -1,0 +1,77 @@
+Date Handling
+
+// f30Server.NETCore2.0WebApplication
+
+	Startup.cs
+		SetupCultureInfo
+
+		Configure
+			this.SetupCultureInfo();
+
+
+// f30Server.Application
+
+	PlayAreaTileTypesWebApiLogicManager
+		_fromCultureInfo = new CultureInfo("en-GB");
+
+		Insert(DataJSONWrapper dataWrapper)
+			item.CopyFromWrapper(dataWrapper, this._fromCultureInfo)
+
+		Update(DataJSONWrapper dataWrapper)
+			item.CopyFromWrapper(dataWrapper, this._fromCultureInfo);
+
+
+
+
+// f30Studio.WinFormsApp
+
+	ModelFactory
+		GetDataManager
+			DataManager dm = new DataManager(ModelFactory.CultureInfo.Name);
+
+
+		SetupPlayAreaCellTypeDataAdministrator
+			object[] p = { connectionString, ModelFactory.CultureInfo };
+
+
+
+// f30.Data
+
+	DataManager
+		SetupPlayAreaCellTypeDataAdministrator
+			_playAreaCellTypesDA = new PlayAreaCellTypeDataAdministrator(_playAreaCellTypesDMP, _playAreaCellTypesDAS, _defaultCultureInfoName, this);
+
+
+	PlayAreaCellType
+		CopyToWrapper
+			dataWrapper.SetParameterValue(PlayAreaCellTypeDataParameterKeys.VersionDate.ToString(), this.VersionDate.ToString("g", this._outputCultureInfo));
+
+		CopyFromWrapper
+			this.VersionDate                    = DateTime.Parse(dataWrapper.GetParameterValue(PlayAreaCellTypeDataParameterKeys.VersionDate.ToString()));
+
+		GetProperty
+		SetProperty
+		
+
+	PlayAreaCellTypeDataAdministrator
+		NewCollection()
+			return new PlayAreaCellTypeCollection(this, _defaultCultureInfoName)
+
+
+	PlayAreaCellTypeCollection
+		GetNewItem
+			item.SetProperty(column.ColumnName, row[column.ColumnName].ToString(), false, fromCultureInfo);
+
+
+
+// Smart.Platform.Data
+
+	SQLServerDataAccessStrategyBase
+		_storageCultureInfo = new CultureInfo("en-US");
+
+		FillCollection(IDataItemCollection collection, DataTable data, bool append)
+			// Nb: .NET Core implicitly sets DataSet formatting to current CultureInfo. Here we change the current CultureInfo
+            // so that we can specify GetNewItem parameter fromCultureInfo
+
+
+

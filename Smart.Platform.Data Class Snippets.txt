@@ -1,0 +1,139 @@
+//PlayGameID,
+//PlayAreaPathID,
+//Index,
+//Column,
+//Row
+
+
+"1/1/1900"
+
+///////// date
+        protected const string _datecreatedKey = "DateCreated";
+
+        /// <summary>
+        /// Gets or sets the DateCreated.
+        /// </summary>
+        /// <value>The DateCreated.</value>
+        [System.ComponentModel.Browsable(false)]
+        public DateTime DateCreated
+        {
+            get
+            {
+                return DateTime.Parse(_node.Attributes[_datecreatedKey].Value);
+            }
+            set
+            {
+                this.SetProperty(_datecreatedKey, value.ToString(), false);
+            }
+        }
+
+///////// int
+        protected const string _numberofpointsKey = "NumberOfPoints";
+
+        /// <summary>
+        /// Gets or sets the NumberOfPoints.
+        /// </summary>
+        /// <value>The NumberOfPoints.</value>
+        [System.ComponentModel.Browsable(false)]
+        public int NumberOfPoints
+        {
+            get
+            {
+                return Int32.Parse(_node.Attributes[_numberofpointsKey].Value);
+            }
+            set
+            {
+                this.SetProperty(_numberofpointsKey, value.ToString(), false);
+            }
+        }
+
+
+///////// string
+        protected const string _attributedataKey = "AttributeData";
+
+        /// <summary>
+        /// Gets or sets the AttributeData.
+        /// </summary>
+        /// <value>The AttributeData.</value>
+        [System.ComponentModel.Browsable(false)]
+        public string AttributeData
+        {
+            get
+            {
+                return _node.Attributes[_attributedataKey].Value;
+            }
+            set
+            {
+                this.SetProperty(_attributedataKey, value, false);
+            }
+        }
+
+/////////// bool
+        protected const string _isspecialynKey = "IsSpecialYN";
+
+        /// <summary>
+        /// Gets or sets the IsSpecialYN.
+        /// </summary>
+        /// <value>The IsSpecialYN</value>
+        [System.ComponentModel.Browsable(false)]
+        public bool IsSpecialYN
+        {
+            get
+            {
+                return bool.Parse(_node.Attributes[_isspecialynKey].Value);
+            }
+            set
+            {
+                this.SetProperty(_isspecialynKey, Convert.ToInt32(value).ToString(), false);
+            }
+        }
+
+/////////// enum
+        protected const string _typeKey = "Type";
+
+        /// <summary>
+        /// Gets or sets the type.
+        /// </summary>
+        /// <value>The type.</value>
+        [System.ComponentModel.Browsable(false)]
+        public BlogEntryTypes Type
+        {
+            get
+            {
+                return (BlogEntryTypes)Enum.Parse(typeof(BlogEntryTypes), _node.Attributes[_typeKey].Value);
+            }
+            set
+            {
+                int i = (int)value;
+                this.SetProperty(_typeKey, i.ToString(), false);
+            }
+        }
+
+
+
+///////////////// CopyToWrapper
+//// Int
+dataWrapper.SetParameterValue(PlayGameDataParameterKeys.LanguageID.ToString(), this.LanguageID.ToString());
+//// String
+dataWrapper.SetParameterValue(PlayGameDataParameterKeys.Name.ToString(), this.Name);
+//// DateTime
+dataWrapper.SetParameterValue(PlayGameDataParameterKeys.DateCreated.ToString(), this.DateCreated.ToString("g", this._outputCultureInfo));
+//// Enum
+dataWrapper.SetParameterValue(PlayAreaCellTypeDataParameterKeys.ExportStatus.ToString(), ((int)this.ExportStatus).ToString());
+//// Bool
+dataWrapper.SetParameterValue(PlayAreaTileDataParameterKeys.RelativeMemberID.ToString(), Convert.ToInt32(this.PositionFixToCellRotationYN).ToString());
+
+
+
+
+///////////////// CopyFromWrapper
+//// Int
+this.RelativeMemberID = Int32.Parse(dataWrapper.GetParameterValue(PlayGameDataParameterKeys.RelativeMemberID.ToString()));
+//// String
+this.Name = dataWrapper.GetParameterValue(PlayGameDataParameterKeys.Name.ToString());
+//// Bool
+this.IsActiveYN = Boolean.Parse(dataWrapper.GetParameterValue(PlayChallengeDataParameterKeys.IsActiveYN.ToString()));
+//// DateTime
+this.DateCreated = DateTime.Parse(dataWrapper.GetParameterValue(PlayGameDataParameterKeys.DateCreated.ToString()));
+//// Enum
+this.ExportStatus                   = (ExportStatusTypes)Enum.Parse(typeof(ExportStatusTypes), dataWrapper.GetParameterValue(PlayAreaCellTypeDataParameterKeys.ExportStatus.ToString()));

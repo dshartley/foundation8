@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Smart.Platform.Diagnostics\Smart.Platform.Diagnostics.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Countries\Resources\CountriesData.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CountriesData.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Countries\Resources\CountriesData.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CountriesData.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

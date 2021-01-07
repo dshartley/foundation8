@@ -1,0 +1,28 @@
+** initialisation methods
+x	Constructors
+		dataManagementPolicy,dataAccessStrategy,defaultCultureInfoName
+
+** public methods
+	DataAccessStrategy
+	DataManagementPolicy
+	Items
+	DataIsLoaded
+	DataIsSaved
+x	Load
+x	Load(ID)
+x	Save
+x	GetNewItem
+x	AddItem(item)
+x	RemoveItem(item)
+x	CopyItem(item)
+
+** protected abstract methods
+	HandleDataItemModified(item, propertyEnum, message)
+
+** protected methods
+x	SetupCollection(collection)
+
+
+** private methods
+x	DoAFterLoad
+x	DoAfterSave

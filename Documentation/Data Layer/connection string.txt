@@ -1,0 +1,5 @@
+Data Source=ACER-61A4596BD3\SQLSERVER2008;Initial Catalog=f8-project-1;Integrated Security=True
+
+
+How to: Read Connection Strings from the Web.config File
+http://msdn.microsoft.com/en-us/library/ms178411.aspx

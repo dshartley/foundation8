@@ -1,0 +1,10 @@
+** Initialisation methods
+	Constructors
+
+** Public
+	Insert(item)
+	Update(item)
+	Commit(collection)
+	Delete(item)
+	Select(collection)
+	Select(collection, ID)

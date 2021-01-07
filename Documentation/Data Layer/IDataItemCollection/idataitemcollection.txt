@@ -1,0 +1,40 @@
+** initialisation methods
+x	Constructors
+		dataAdministrator,defaultCultureInfoName
+		dataDocument, dataAdministrator,defaultCultureInfoName
+
+
+** public
+x	Clear
+x	GetNextID
+
+** public data item methods
+x	AddItem
+x	AddItem(item)
+x	RemoveItem(item)
+x	GetItem(ID)
+x	GetItem(int propertyEnum, string value)
+x	protected: AddItemLowOverhead(IDataItem item)
+
+** public meta methods
+	DataDocument
+	Items
+	DataAdministrator
+
+** public abstract
+	DataType
+x	GetNewItem
+x	GetNewItem(node)
+x	GetNewItem(row)
+
+** protected abstract
+	HandleValidationPassed(item, propertyEnum, message, validationResult)
+	HandleValidationFailed(item, propertyEnum, message, validationResult)
+
+
+** protected
+x	Exists(int ID)
+
+
+
+	

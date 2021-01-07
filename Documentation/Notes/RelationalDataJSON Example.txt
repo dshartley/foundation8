@@ -1,0 +1,28 @@
+{
+  "ID" : "0",
+  "Items" : [
+
+  ],
+  "Params" : [
+    {
+      "Key" : "RelativeMemberID",
+      "Value" : "22"
+    },
+    {
+      "Key" : "DateCreated",
+      "Value" : "12-05-2020 14:39:31 PM"
+    },
+    {
+      "Key" : "Name",
+      "Value" : ""
+    },
+    {
+      "Key" : "LanguageID",
+      "Value" : "0"
+    },
+    {
+      "Key" : "RelationalDataJSON",
+      "Value" : "{\"ID\" : \"\", \"Items\" : [{\"ID\" : \"PlayGameData\", \"Items\" : [{ \"ID\" : \"23BEB419-F8CD-4C1E-AAA3-D019E0769392\", \"Items\" : [],\"Params\" : [{ \"Key\" : \"RelativeMemberID\",\"Value\" : \"22\"},{\"Key\" : \"PlayGameID\", \"Value\" : \"F3F753C0-B0FE-4DCE-8F57-6E5388A37067\" },{\"Key\" : \"DateLastPlayed\",              \"Value\" : \"01-01-1900 00:00:00 AM\"}, { \"Key\" : \"NumberOfFeathers\",              \"Value\" : \"0\"},{\"Key\" : \"NumberOfExperiencePoints\",\"Value\" : \"0\"}, {              \"Key\" : \"NumberOfPoints\",\"Value\" : \"0\"},{\"Key\" : \"AttributeData\", \"Value\" : \"\"}]}], \"Params\" : []}],\"Params\" : []}"
+    }
+  ]
+}

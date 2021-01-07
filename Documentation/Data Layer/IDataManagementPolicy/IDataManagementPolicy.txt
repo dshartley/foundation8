@@ -1,0 +1,6 @@
+** Initialisation methods
+	Constructors
+
+** Public
+	Initialise
+	DataAdministrator

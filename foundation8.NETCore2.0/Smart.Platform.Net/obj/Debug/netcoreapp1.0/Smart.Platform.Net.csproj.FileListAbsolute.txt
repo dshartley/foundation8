@@ -1,0 +1,7 @@
+C:\Users\Dave\Google Drive\My Tray\My Foundations\foundation8\foundation8.NETCore1.0\foundation8.NETCore1.0\Smart.Platform.Net\obj\Debug\netcoreapp1.0\Smart.Platform.Net.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Google Drive\My Tray\My Foundations\foundation8\foundation8.NETCore1.0\foundation8.NETCore1.0\Smart.Platform.Net\obj\Debug\netcoreapp1.0\Smart.Platform.Net.Resources.EmailSender.Messages.resources
+C:\Users\Dave\Google Drive\My Tray\My Foundations\foundation8\foundation8.NETCore1.0\foundation8.NETCore1.0\Smart.Platform.Net\obj\Debug\netcoreapp1.0\Smart.Platform.Net.Resources.EmailWrapper.Messages.resources
+C:\Users\Dave\Google Drive\My Tray\My Foundations\foundation8\foundation8.NETCore1.0\foundation8.NETCore1.0\Smart.Platform.Net\obj\Debug\netcoreapp1.0\Smart.Platform.Net.csproj.GenerateResource.cache
+C:\Users\Dave\Google Drive\My Tray\My Foundations\foundation8\foundation8.NETCore1.0\foundation8.NETCore1.0\Smart.Platform.Net\obj\Debug\netcoreapp1.0\Smart.Platform.Net.csproj.CoreCompileInputs.cache
+C:\Users\Dave\Google Drive\My Tray\My Foundations\foundation8\foundation8.NETCore1.0\foundation8.NETCore1.0\Smart.Platform.Net\obj\Debug\netcoreapp1.0\Smart.Platform.Net.AssemblyInfoInputs.cache
+C:\Users\Dave\Google Drive\My Tray\My Foundations\foundation8\foundation8.NETCore1.0\foundation8.NETCore1.0\Smart.Platform.Net\obj\Debug\netcoreapp1.0\Smart.Platform.Net.AssemblyInfo.cs

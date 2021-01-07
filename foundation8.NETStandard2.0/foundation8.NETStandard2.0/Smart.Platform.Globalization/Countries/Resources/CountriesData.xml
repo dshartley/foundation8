@@ -1,0 +1,479 @@
+<Countries>
+
+    <Country code="AF">Afghanistan</Country>
+
+    <Country code="AL">Albania</Country>
+
+    <Country code="DZ">Algeria</Country>
+
+    <Country code="AS">American Samoa</Country>
+
+    <Country code="AD">Andorra</Country>
+
+    <Country code="AO">Angola</Country>
+
+    <Country code="AI">Anguilla</Country>
+
+    <Country code="AQ">Antarctica</Country>
+
+    <Country code="AG">Antigua And Barbuda</Country>
+
+    <Country code="AR">Argentina</Country>
+
+    <Country code="AM">Armenia</Country>
+
+    <Country code="AW">Aruba</Country>
+
+    <Country code="AU">Australia</Country>
+
+    <Country code="AT">Austria</Country>
+
+    <Country code="AZ">Azerbaijan</Country>
+
+    <Country code="BS">Bahamas</Country>
+
+    <Country code="BH">Bahrain</Country>
+
+    <Country code="BD">Bangladesh</Country>
+
+    <Country code="BB">Barbados</Country>
+
+    <Country code="BY">Belarus</Country>
+
+    <Country code="BE">Belgium</Country>
+
+    <Country code="BZ">Belize</Country>
+
+    <Country code="BJ">Benin</Country>
+
+    <Country code="BM">Bermuda</Country>
+
+    <Country code="BT">Bhutan</Country>
+
+    <Country code="BO">Bolivia</Country>
+
+    <Country code="BA">Bosnia And Herzegowina</Country>
+
+    <Country code="BW">Botswana</Country>
+
+    <Country code="BV">Bouvet Island</Country>
+
+    <Country code="BR">Brazil</Country>
+
+    <Country code="IO">British Indian Ocean Territory</Country>
+
+    <Country code="BN">Brunei Darussalam</Country>
+
+    <Country code="BG">Bulgaria</Country>
+
+    <Country code="BF">Burkina Faso</Country>
+
+    <Country code="BI">Burundi</Country>
+
+    <Country code="KH">Cambodia</Country>
+
+    <Country code="CM">Cameroon</Country>
+
+    <Country code="CA">Canada</Country>
+
+    <Country code="CV">Cape Verde</Country>
+
+    <Country code="KY">Cayman Islands</Country>
+
+    <Country code="CF">Central African Republic</Country>
+
+    <Country code="TD">Chad</Country>
+
+    <Country code="CL">Chile</Country>
+
+    <Country code="CN">China</Country>
+
+    <Country code="CX">Christmas Island</Country>
+
+    <Country code="CC">Cocos (Keeling) Islands</Country>
+
+    <Country code="CO">Colombia</Country>
+
+    <Country code="KM">Comoros</Country>
+
+    <Country code="CG">Congo</Country>
+
+    <Country code="CK">Cook Islands</Country>
+
+    <Country code="CR">Costa Rica</Country>
+
+    <Country code="CI">Cote D'Ivoire</Country>
+
+    <Country code="HR">Croatia (Local Name: Hrvatska)</Country>
+
+    <Country code="CU">Cuba</Country>
+
+    <Country code="CY">Cyprus</Country>
+
+    <Country code="CZ">Czech Republic</Country>
+
+    <Country code="DK">Denmark</Country>
+
+    <Country code="DJ">Djibouti</Country>
+
+    <Country code="DM">Dominica</Country>
+
+    <Country code="DO">Dominican Republic</Country>
+
+    <Country code="TP">East Timor</Country>
+
+    <Country code="EC">Ecuador</Country>
+
+    <Country code="EG">Egypt</Country>
+
+    <Country code="SV">El Salvador</Country>
+
+    <Country code="GQ">Equatorial Guinea</Country>
+
+    <Country code="ER">Eritrea</Country>
+
+    <Country code="EE">Estonia</Country>
+
+    <Country code="ET">Ethiopia</Country>
+
+    <Country code="FK">Falkland Islands (Malvinas)</Country>
+
+    <Country code="FO">Faroe Islands</Country>
+
+    <Country code="FJ">Fiji</Country>
+
+    <Country code="FI">Finland</Country>
+
+    <Country code="FR">France</Country>
+
+    <Country code="GF">French Guiana</Country>
+
+    <Country code="PF">French Polynesia</Country>
+
+    <Country code="TF">French Southern Territories</Country>
+
+    <Country code="GA">Gabon</Country>
+
+    <Country code="GM">Gambia</Country>
+
+    <Country code="GE">Georgia</Country>
+
+    <Country code="DE">Germany</Country>
+
+    <Country code="GH">Ghana</Country>
+
+    <Country code="GI">Gibraltar</Country>
+
+    <Country code="GR">Greece</Country>
+
+    <Country code="GL">Greenland</Country>
+
+    <Country code="GD">Grenada</Country>
+
+    <Country code="GP">Guadeloupe</Country>
+
+    <Country code="GU">Guam</Country>
+
+    <Country code="GT">Guatemala</Country>
+
+    <Country code="GN">Guinea</Country>
+
+    <Country code="GW">Guinea-Bissau</Country>
+
+    <Country code="GY">Guyana</Country>
+
+    <Country code="HT">Haiti</Country>
+
+    <Country code="HM">Heard And Mc Donald Islands</Country>
+
+    <Country code="VA">Holy See (Vatican City State)</Country>
+
+    <Country code="HN">Honduras</Country>
+
+    <Country code="HK">Hong Kong</Country>
+
+    <Country code="HU">Hungary</Country>
+
+    <Country code="IS">Icel And</Country>
+
+    <Country code="IN">India</Country>
+
+    <Country code="ID">Indonesia</Country>
+
+    <Country code="IR">Iran (Islamic Republic Of)</Country>
+
+    <Country code="IQ">Iraq</Country>
+
+    <Country code="IE">Ireland</Country>
+
+    <Country code="IL">Israel</Country>
+
+    <Country code="IT">Italy</Country>
+
+    <Country code="JM">Jamaica</Country>
+
+    <Country code="JP">Japan</Country>
+
+    <Country code="JO">Jordan</Country>
+
+    <Country code="KZ">Kazakhstan</Country>
+
+    <Country code="KE">Kenya</Country>
+
+    <Country code="KI">Kiribati</Country>
+
+    <Country code="KP">Korea, Dem People'S Republic</Country>
+
+    <Country code="KR">Korea, Republic Of</Country>
+
+    <Country code="KW">Kuwait</Country>
+
+    <Country code="KG">Kyrgyzstan</Country>
+
+    <Country code="LA">Lao People'S Dem Republic</Country>
+
+    <Country code="LV">Latvia</Country>
+
+    <Country code="LB">Lebanon</Country>
+
+    <Country code="LS">Lesotho</Country>
+
+    <Country code="LR">Liberia</Country>
+
+    <Country code="LY">Libyan Arab Jamahiriya</Country>
+
+    <Country code="LI">Liechtenstein</Country>
+
+    <Country code="LT">Lithuania</Country>
+
+    <Country code="LU">Luxembourg</Country>
+
+    <Country code="MO">Macau</Country>
+
+    <Country code="MK">Macedonia</Country>
+
+    <Country code="MG">Madagascar</Country>
+
+    <Country code="MW">Malawi</Country>
+
+    <Country code="MY">Malaysia</Country>
+
+    <Country code="MV">Maldives</Country>
+
+    <Country code="ML">Mali</Country>
+
+    <Country code="MT">Malta</Country>
+
+    <Country code="MH">Marshall Islands</Country>
+
+    <Country code="MQ">Martinique</Country>
+
+    <Country code="MR">Mauritania</Country>
+
+    <Country code="MU">Mauritius</Country>
+
+    <Country code="YT">Mayotte</Country>
+
+    <Country code="MX">Mexico</Country>
+
+    <Country code="FM">Micronesia, Federated States</Country>
+
+    <Country code="MD">Moldova, Republic Of</Country>
+
+    <Country code="MC">Monaco</Country>
+
+    <Country code="MN">Mongolia</Country>
+
+    <Country code="MS">Montserrat</Country>
+
+    <Country code="MA">Morocco</Country>
+
+    <Country code="MZ">Mozambique</Country>
+
+    <Country code="MM">Myanmar</Country>
+
+    <Country code="NA">Namibia</Country>
+
+    <Country code="NR">Nauru</Country>
+
+    <Country code="NP">Nepal</Country>
+
+    <Country code="NL">Netherlands</Country>
+
+    <Country code="AN">Netherlands Ant Illes</Country>
+
+    <Country code="NC">New Caledonia</Country>
+
+    <Country code="NZ" Selected="True">New Zealand</Country>
+
+    <Country code="NI">Nicaragua</Country>
+
+    <Country code="NE">Niger</Country>
+
+    <Country code="NG">Nigeria</Country>
+
+    <Country code="NU">Niue</Country>
+
+    <Country code="NF">Norfolk Island</Country>
+
+    <Country code="MP">Northern Mariana Islands</Country>
+
+    <Country code="NO">Norway</Country>
+
+    <Country code="OM">Oman</Country>
+
+    <Country code="PK">Pakistan</Country>
+
+    <Country code="PW">Palau</Country>
+
+    <Country code="PA">Panama</Country>
+
+    <Country code="PG">Papua New Guinea</Country>
+
+    <Country code="PY">Paraguay</Country>
+
+    <Country code="PE">Peru</Country>
+
+    <Country code="PH">Philippines</Country>
+
+    <Country code="PN">Pitcairn</Country>
+
+    <Country code="PL">Poland</Country>
+
+    <Country code="PT">Portugal</Country>
+
+    <Country code="PR">Puerto Rico</Country>
+
+    <Country code="QA">Qatar</Country>
+
+    <Country code="RE">Reunion</Country>
+
+    <Country code="RO">Romania</Country>
+
+    <Country code="RU">Russian Federation</Country>
+
+    <Country code="RW">Rwanda</Country>
+
+    <Country code="KN">Saint K Itts And Nevis</Country>
+
+    <Country code="LC">Saint Lucia</Country>
+
+    <Country code="VC">Saint Vincent, The Grenadines</Country>
+
+    <Country code="WS">Samoa</Country>
+
+    <Country code="SM">San Marino</Country>
+
+    <Country code="ST">Sao Tome And Principe</Country>
+
+    <Country code="SA">Saudi Arabia</Country>
+
+    <Country code="SN">Senegal</Country>
+
+    <Country code="SC">Seychelles</Country>
+
+    <Country code="SL">Sierra Leone</Country>
+
+    <Country code="SG">Singapore</Country>
+
+    <Country code="SK">Slovakia (Slovak Republic)</Country>
+
+    <Country code="SI">Slovenia</Country>
+
+    <Country code="SB">Solomon Islands</Country>
+
+    <Country code="SO">Somalia</Country>
+
+    <Country code="ZA">South Africa</Country>
+
+    <Country code="GS">South Georgia , S Sandwich Is.</Country>
+
+    <Country code="ES">Spain</Country>
+
+    <Country code="LK">Sri Lanka</Country>
+
+    <Country code="SH">St. Helena</Country>
+
+    <Country code="PM">St. Pierre And Miquelon</Country>
+
+    <Country code="SD">Sudan</Country>
+
+    <Country code="SR">Suriname</Country>
+
+    <Country code="SJ">Svalbard, Jan Mayen Islands</Country>
+
+    <Country code="SZ">Sw Aziland</Country>
+
+    <Country code="SE">Sweden</Country>
+
+    <Country code="CH">Switzerland</Country>
+
+    <Country code="SY">Syrian Arab Republic</Country>
+
+    <Country code="TW">Taiwan</Country>
+
+    <Country code="TJ">Tajikistan</Country>
+
+    <Country code="TZ">Tanzania, United Republic Of</Country>
+
+    <Country code="TH">Thailand</Country>
+
+    <Country code="TG">Togo</Country>
+
+    <Country code="TK">Tokelau</Country>
+
+    <Country code="TO">Tonga</Country>
+
+    <Country code="TT">Trinidad And Tobago</Country>
+
+    <Country code="TN">Tunisia</Country>
+
+    <Country code="TR">Turkey</Country>
+
+    <Country code="TM">Turkmenistan</Country>
+
+    <Country code="TC">Turks And Caicos Islands</Country>
+
+    <Country code="TV">Tuvalu</Country>
+
+    <Country code="UG">Uganda</Country>
+
+    <Country code="UA">Ukraine</Country>
+
+    <Country code="AE">United Arab Emirates</Country>
+
+    <Country code="GB">United Kingdom</Country>
+
+    <Country code="US">United States</Country>
+
+    <Country code="UM">United States Minor Is.</Country>
+
+    <Country code="UY">Uruguay</Country>
+
+    <Country code="UZ">Uzbekistan</Country>
+
+    <Country code="VU">Vanuatu</Country>
+
+    <Country code="VE">Venezuela</Country>
+
+    <Country code="VN">Viet Nam</Country>
+
+    <Country code="VG">Virgin Islands (British)</Country>
+
+    <Country code="VI">Virgin Islands (U.S.)</Country>
+
+    <Country code="WF">Wallis And Futuna Islands</Country>
+
+    <Country code="EH">Western Sahara</Country>
+
+    <Country code="YE">Yemen</Country>
+
+    <Country code="YU">Yugoslavia</Country>
+
+    <Country code="ZR">Zaire</Country>
+
+    <Country code="ZM">Zambia</Country>
+
+    <Country code="ZW">Zimbabwe</Country>
+
+</Countries>

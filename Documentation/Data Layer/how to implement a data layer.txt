@@ -1,0 +1,51 @@
+
+How to implement a data layer;
+(making changes to the schema)
+
+1/ Add the table columns in the f8-project-1.Properties enum
+	
+
+2/ implement IDataItem for the table;
+	Setup the node data in InitialiseDataNode
+	Setup the item in InitialiseDataItem;
+		i. inject data document/node, collection, default culture
+		ii. setup foreign key dependency helpers
+		iii. setup data type
+	Setup the property indexes in InitialisePropertyIndexes
+	Setup the property keys in InitialisePropertyKeys
+	Perform validations in IsValid
+	Copy
+	Create the public properties
+
+3/ implement IDataItemCollection for the table;
+	Constructor;
+		i. inject data document, administrator, default culture
+		ii. setup data type
+
+4/ implement IDataAdministrator for the table;
+	Constructor;
+		i. inject data access strategy, data management policy, default culture
+	Add functionality to HandleDataItemModified if required
+	Add functionality to HandleDataItemStatusChanged if required???
+
+5/ implement IDataAccessStrategy for the table data source;
+	Constructor;
+		i. inject connection string, culture info, table name
+	FillCollection
+
+6/ implement IDataManagementPolicy or select existing one, depending on;
+	
+
+7/ call the code from application layer;
+	i. inject connection string
+	ii inject data access strategy
+	iii. inject data management policy
+	iv. use data administrator
+
+To instantiate a data item, call the constructor then call EndCreate()
+
+
+ 
+
+
+
